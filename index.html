@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- corrected -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>My Shop</title>
+</head>
+  <style>
+    html{
+        scroll-behavior: smooth;
+    }
+body{
+    background-color: rgb(211, 172, 211);
+    
+}
+.moving-text{
+    display: inline-block;
+    white-space: nowrap;
+    animation: scrollText 10s linear infinite;
+}
+@keyframes scrollText {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+  
+  </style>
+  <body>
+<div class="header fixed-top">
+    <div class="container">
+        <div class="row">
+          <div class="column">
+            www.SweetShop.com
+          </div>
+        </div>
+    </div>
+</div>
+<!--end header-->
+<!--start navbar-->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top " style="background-color: rgb(239, 197, 239);">
+  <a class="navbar-brand" href="#crepe">Crepe</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#shakes">Shakes <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#fresh">Fresh Juice</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<br><br>
+<!--end navbar-->
+<!--stART jumbotron-->
+<div class="jumbotron jumbotron-fluid" style="background-color: rgb(231, 159, 231);">
+  <div class="container">
+    <h1 class="display-4">Desserts & Shakes</h1>
+    <p class="lead">"Come and taste the happiness at our desserts and shake shop"</p>
+    <div class="center-btn">
+    <button class="btn" onclick="window.location.href='prices.html'">check our menu</button>
+    </div>
+   <span class="arrow">↓</span>
+  </div>
+</div>
+<!--end jumbtron-->
+<!--start cards1-->
+<section id="crepe">
+<h2 class="crep">Our Crepes</h2>
+<div class="row row-cols-1 row-cols-md-4">
+    
+  <div class="col mb-4 d-flex justify-content-center ">
+    <div class="card " style="width: 18rem;">
+      <img src="https://novacafe.com/wp-content/uploads/2022/12/nova-cre-300x300.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Crepe Lotous</h5>
+        <p class="card-text">A crispy crepe layered with Lotus Biscoff spread and crunchy biscuit crumbles.</p>
+         <div class="center-btn">
+         <button class="btn" onclick="window.location.href='prices.html'" >Details</button>
+         
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4 d-flex justify-content-center">
+    <div class="card " style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrbPFgUf_C9HXONokXwo5QWQAfIZnK7WIVsw&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Crepe Nutella</h5>
+        <p class="card-text">Rich, warm crepe filled with smooth Nutella for the ultimate chocolatey delight.</p>
+        <div class="center-btn">
+         <button class="btn" onclick="window.location.href='prices.html'">Details</button>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4 d-flex justify-content-center">
+    <div class="card" style="width: 18rem;"">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZkURVGdw_XtmkB3k6XsKrqv5PsU-vZmLlgQ&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Crepe Oreo</h5>
+        <p class="card-text">Soft crepe packed with crushed Oreos and creamy chocolate for a cookies & cream dream</p>
+        <div class="center-btn">
+         <button class="btn" onclick="window.location.href='prices.html'">Details</button>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4 d-flex justify-content-center">
+    <div class="card" style="width: 18rem;"">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTP_S-OGUOqKj2Z5F96Ac2TG5mwg7QvuX1rw&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Crepe Ice Cream</h5>
+        <p class="card-text">A chilled twist—delicate crepe wrapped around your favorite ice cream flavors</p>
+        <div class="center-btn">
+         <button class="btn" onclick="window.location.href='prices.html'">Details</button>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--end cardss-->
+
+
+
+
+
+
+
+
+
+<!--start cards2   -->
+<section id="shakes">
+<h2 class="shakes">Our Shakes</h2>
+<div class="row row-cols-1 row-cols-md-4">
+    
+  <div class="col mb-4 d-flex justify-content-center ">
+    <div class="card " style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWtUpwBsOb7HYKixuOQTarCfLGQLYyPUiQ6Q&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Mocha Shake</h5>
+        <p class="card-text">“Coffee meets chocolate in a chill and creamy blend.”</p>
+         <div class="center-btn">
+         <button class="btn" onclick="window.location.href='prices.html'">Details</button>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4 d-flex justify-content-center">
+    <div class="card " style="width: 18rem;">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrFbFb9waR9rZXreW1WfQkAj6V043Aa1CaBQ&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Kinder Shake</h5>
+        <p class="card-text">“Where childhood dreams melt into every sip.”</p>
+        <div class="center-btn">
+         <button class="btn" onclick="window.location.href='prices.html'">Details</button>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4 d-flex justify-content-center">
+    <div class="card" style="width: 18rem;">
+      <img src="https://www.queensleeappetit.com/wp-content/uploads/2018/05/Salted-Caramel-Milkshake-9.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Caramel Shake</h5>
+        <p class="card-text">“Sweet, smooth, and golden—pure caramel comfort.”</p>
+        <div class="center-btn">
+         <button class="btn" onclick="window.location.href='prices.html'">Details</button>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4 d-flex justify-content-center">
+    <div class="card" style="width: 18rem;"">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwRDGoXD38NPdnw2uKVWaEJAJZOuDCbqxfgg&s" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Strawberry MilkShake</h5>
+        <p class="card-text">“Berry sweet, berry fresh, berry perfect.”</p>
+        <div class="center-btn">
+         <button class="btn" onclick="window.location.href='prices.html'">Details</button>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--end cardss-->
+
+
+
+
+
+
+
+
+
+<!--startcard3-->
+<section id="fresh">
+<h2 class="fresh">Our Fresh Juice</h2>
+<div class="row row-cols-1 row-cols-md-4">
+  <div class="col mb-4 d-flex justify-content-center">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Lemon Jiuce</h5>
+        <p class="card-text"> " Lemon: Zesty, fresh, and full of zing!"</p>
+        <a href="prices.html" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4 d-flex justify-content-center">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Orange Juice</h5>
+        <p class="card-text"> "A burst of sunshine in every sip!"</p>
+        <a href="prices.html" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+   <div class="col mb-4 d-flex justify-content-center">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Mango Juice</h5>
+        <p class="card-text">"Sweet, smooth, and irresistibly mango."</p>
+        <a href="prices.html" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+   <div class="col mb-4 d-flex justify-content-center">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Guava Juice</h5>
+        <p class="card-text">-  "Exotic, refreshing, and naturally delicious!"</p>
+        <a href="prices.html" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<!--end card3-->
+
+<!--footer-->
+<section id="contact">
+<div class="footer">
+    <div class="footer-content">
+        <h2 class="text">Desserts & Shakes</h2>
+        <span>📍 Location: Majdel Anjar</span><br>
+        <span>📞 Phone: 76018885</span>
+        <div class="social-icons my-2">
+      <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="text-white mx-2"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+  </div>
+  </section>
+  
+        <!--end footer-->
+        <!--second footer-->
+  <div class="footer1" style="background-color:black; overflow: hidden;">
+    <div class="container">
+      <div class="row">
+      <a href="mailto:www.SweetShop.com"> <p style="color:white;"><p class="moving-text"style="color:white;"> © 2025 Desserts & Shakes. All rights reserved.</p></a>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  
+        <!--end footer-->
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+ 
+  </body>
+  </html>
